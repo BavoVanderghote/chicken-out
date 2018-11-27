@@ -1,0 +1,49 @@
+@import './css/reset.css';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* stylelint-disable */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* stylelint-enable */
+
+body {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+canvas {
+  margin-top: 10vw;
+}
+
+.game {
+  display: flex;
+}
+
+.overlay {
+  visibility: hidden;
+  margin-top: 16vw;
+  position: absolute;
+}
+
+.overlay__usernameinput {
+  font-family: Quicksand, sans-serif;
+  font-weight: bold;
+  height: 4rem;
+  width: 20rem;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem;
+  background-color: #fffc9f;
+  border: .4rem solid #ffdda0;
+  border-radius: 2rem;
+  text-align: center;
+}
